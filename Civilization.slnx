@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Civ.Batch/Civ.Batch.csproj" />
+    <Project Path="src/Civ.Engine/Civ.Engine.csproj" />
+    <Project Path="src/Civ.Systems/Civ.Systems.csproj" />
+    <Project Path="src/Civ.Terminal/Civ.Terminal.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Civ.Engine.Tests/Civ.Engine.Tests.csproj" />
+  </Folder>
+</Solution>

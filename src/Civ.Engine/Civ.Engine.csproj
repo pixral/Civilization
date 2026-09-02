@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>Civ.Engine</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!--
+      The engine is the only assembly permitted to mutate WorldState.
+      Tests need to construct and mutate state directly to exercise edge cases
+      (polity splits, stale ids) that no system triggers yet.
+    -->
+    <InternalsVisibleTo Include="Civ.Engine.Tests" />
+  </ItemGroup>
+
+</Project>

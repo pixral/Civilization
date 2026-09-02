@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Civ.Terminal</RootNamespace>
+    <AssemblyName>civ</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Civ.Engine\Civ.Engine.csproj" />
+    <ProjectReference Include="..\Civ.Systems\Civ.Systems.csproj" />
+  </ItemGroup>
+
+</Project>

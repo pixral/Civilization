@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Civ.Batch</RootNamespace>
+    <AssemblyName>civ-batch</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- The corrected loss-window rule is worth asserting directly, not only observing in output. -->
+    <InternalsVisibleTo Include="Civ.Engine.Tests" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Civ.Engine\Civ.Engine.csproj" />
+    <ProjectReference Include="..\Civ.Systems\Civ.Systems.csproj" />
+  </ItemGroup>
+
+</Project>
