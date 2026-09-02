@@ -1,5 +1,7 @@
 # civilization
 
+English | [Español](README.es.md)
+
 A headless, deterministic history simulation with a terminal front end.
 
 This is an **architectural skeleton plus three deliberately crude systems**. Population grows,
